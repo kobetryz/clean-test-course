@@ -1,5 +1,4 @@
-name: Lesson 2
-
+name: Lesson 2 - Build and Deploy
 on:
   push:
     branches:
@@ -38,3 +37,5 @@ jobs:
           coverage run -m --source=./hangry_api pytest
           coverage report -m
         working-directory: backend
+# working
+
